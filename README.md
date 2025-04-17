@@ -1,0 +1,58 @@
+Context – Housing Price Prediction
+
+Housing is one of the most fundamental human needs, alongside essentials like food and water. As living standards have improved over the years, the demand for housing has grown significantly. Beyond its role as shelter, the housing market also influences a country's economy and can directly impact its currency value.
+
+A home’s sale price depends on many factors, such as:
+
+    The property’s size and location
+
+    Building materials and construction quality
+
+    The age of the house
+
+    The number of bedrooms, bathrooms, and garages
+
+Given all these variables, predicting housing prices accurately can offer major benefits to homebuyers, real estate investors, and developers. A good prediction model helps buyers understand the current market value of properties and guides them to make informed decisions based on their budgets and preferences.
+🎯 Objective
+
+The aim of this project is to predict housing prices in a town or suburb using the provided data on housing and locality features.
+We will:
+
+    Explore and preprocess the dataset
+
+    Identify key features that most influence house prices
+
+    Use Linear Regression to build a predictive model
+
+    Evaluate its performance on unseen data
+
+📊 Dataset Description
+
+This dataset represents various towns and suburbs in Boston, using data collected in 1970 from the Boston Standard Metropolitan Statistical Area (SMSA). Each record contains a set of features describing a location and the corresponding median home value.
+Attributes:
+
+    CRIM: Crime rate per capita by town
+
+    ZN: Proportion of residential land zoned for large lots (>25,000 sq.ft.)
+
+    INDUS: Proportion of land used for non-retail business
+
+    CHAS: Charles River adjacency (1 = borders river, 0 = does not)
+
+    NOX: Nitric oxide concentration (parts per 10 million)
+
+    RM: Average number of rooms per dwelling
+
+    AGE: Percentage of homes built before 1940
+
+    DIS: Distance to Boston’s five major employment centers
+
+    RAD: Accessibility index to radial highways
+
+    TAX: Property tax rate (per $10,000)
+
+    PTRATIO: Student-to-teacher ratio by town
+
+    LSTAT: Percentage of the population with lower socio-economic status
+
+    MEDV: Median home value (in $1,000s) — target variable
